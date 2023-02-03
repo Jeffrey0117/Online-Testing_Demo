@@ -1,0 +1,227 @@
+
+        body{
+            margin: 0;
+            background-color: gray;
+        }
+    
+       .header-header{
+        margin-left: -8px;
+        width: 100%+8px;
+        height: 62px;
+        border-radius: 8px;
+        /*background-color: rgb(77, 148, 242);*/
+        background-color:#2C90BE;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        box-shadow: 2px 4px 5px rgb(102, 100, 100);
+        position:sticky;
+        top:0px;
+    }
+    
+    .header-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+       .txt{
+        margin-left: 5px;
+        margin-top: 4px;
+        font-size: 23px;
+        font-weight: 500;
+        color: white;
+        text-shadow: 1px 1px 5px black;
+       }
+    
+       .container{
+        min-width: 20.625rem;
+        max-width: 58rem;
+        margin-left: auto;
+        margin-right: auto;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        padding: 1.5rem 2rem;
+        /*background-color: rgb(199, 244, 199);*/
+        background-color: #C8E4C5;
+        height: 5500px;
+        margin-top: 40px;
+        box-shadow: 3px 2px 5px rgb(41, 39, 39);
+    
+    }
+    
+    
+    
+    .question, h2{
+        margin-left: 20px;
+        color: rgb(91, 91, 93);
+    }
+    
+    
+    .content{
+        margin-left: 45px;
+        font-size: 20px;
+    }
+    
+    .content p{
+        width: 670px;
+    }
+    
+    .option p{
+        margin-top: 25px;
+        width: fit-content;
+    }
+    
+    .ans{
+        width: 850px;
+        height: 65px;
+        border-radius: 7px;
+        /*background-color: rgb(131, 209, 251);*/
+        background-color:#E4F2E2;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .ans button{
+        width: 85px;
+        padding: 10px;
+        font-size: 25px;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 2px 1.5px 4px rgb(41, 39, 39);
+        outline: none;
+    }
+    
+    .linethrough{
+        text-decoration:line-through ;
+        color: red;
+    }
+    
+    .highlighter{
+        background-color: yellow;
+        color: black;
+    }
+    
+    hr{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border:1px solid white;
+    }
+    
+    .checked{
+        transition: all 0.1s;
+        background-color: #595F58 !important;
+        color: white;
+    }
+    
+    .slide{
+        width:250px;
+        height: 1000px;
+        background-color:white;
+        position: fixed;
+        top: 0;
+        display: none;
+    
+    }
+    
+    .jumpTo{
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sizeChange, .directChange{
+        padding: 8px 0;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-left: 8px;
+    }
+    
+    .slide label{
+        color: rgba(0, 0, 0, 0.6);
+        margin-bottom: 8px;
+    }
+    
+    .pickOptions{
+        margin-top: 15px;
+    }
+    
+    .slide span{
+        margin-right: 15px;
+    }
+    
+    .jumpTo a{
+        width: 100px;
+        height: 25px;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 18px;
+        color: #489EC6;
+    }
+    
+    .jumpTo{
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(5.75rem, 1fr));
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        height: 290px;
+    }
+    
+    .timer-container{
+        height: 60px;
+        padding: 2rem 0.5rem;
+        background-color: #4F4F4F;
+        color: #fff;
+    
+    }
+    
+    .timer{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: -15px;
+    }
+    
+    .timer button{
+        width: 110px;
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+        font-size: 14px;
+    }
+    
+    .timer span{
+        margin-bottom: 15px;
+        font-size: 16.5px;
+    }
+    
+    .btn{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    
+    }
+    
+    .jumpTo span{
+        color: black;
+    
+    }
+    
+    .menu-container{
+        padding: 10px 30px 15px;
+    }
+    
+    .menu-container div{
+        width: 22px;
+        height: 2.5px;
+        background-color: rgb(255, 255, 255);
+        margin: 3px 0;
+    
+    }
+    
